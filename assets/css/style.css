@@ -1,0 +1,92 @@
+h1, h2, h3, h4, h5, h6, section,
+aside, p {
+    margin: 10px;
+}
+
+body {
+    background-color: #d5d6d5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/*nav bar*/
+.nav-heading {
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;
+    border-bottom-color: #cccccc;
+    vertical-align: middle;
+}
+
+.nav-options {
+    float: right;
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+#user-heading {
+    position: fixed;
+    top: 0;
+    left: 40px;
+    z-index: 1;
+    padding: 24.5px;
+    width: 150px;
+    background-color: #4aaaa5;
+    text-align: center;
+    vertical-align: middle;
+}
+/*about me */
+.wrapper {
+    position: fixed;
+    top: 90px;
+    margin: 0 auto;
+}
+
+section {
+    padding: 15px;
+}
+hr{
+    margin: 5px;
+}
+
+.index {
+    width: 45%;
+    background-color: #ffffff;
+    float: left;
+}
+
+/*connect with me*/
+.connect {
+    width: 20%;
+    background-color: #ffffff;
+    float: left;
+}
+
+.icons {
+    width: 100px;
+}
+
+img{
+    width: 40px;
+    float: left;
+    padding: 5px;
+    align-content: center;
+    overflow: auto;
+}
+
+/*footer*/
+footer{
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    clear: both;
+    background-color: #666666;
+}
