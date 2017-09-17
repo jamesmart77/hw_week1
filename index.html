@@ -9,10 +9,11 @@
     <!--Font Awesome-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Linking CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
     <title>James Martineau | About</title>
-    <link rel="shortcut icon" href="/assets/images/favicon.ico" />
+    <link rel="shortcut icon" href="assets/images/favicon.ico" />
 
 </head>
 
@@ -23,8 +24,8 @@
         <nav>
             <!--Profile Name in Nav-->
             <div class="nav-options">
-                <a href="index.html"><i class="fa fa-home"></i> About</a>   
-                <a href="portfolio.html"><i class="fa fa-folder-o"></i> Portfolio</a>   
+                <a href="index.html"><i class="fa fa-home"></i> About</a> |     
+                <a href="portfolio.html"><i class="fa fa-folder-o"></i> Portfolio</a> |   
                 <a href="contact.html"><i class="fa fa-user-o"></i> Contact</a> 
             </div>
         </nav>
@@ -34,30 +35,48 @@
     <!--insert background pic-->
     <!--about section-->
     <div class="wrapper">
-        <section class="index">
-            <h2>About Me</h2>
+        <section class="about">
+            <h2 class="about-header">About Me</h2>
             <hr>
-            <figure>
-                <img src="assets/images/profile.jpg" style="width: 40%">
-            </figure>
-            <p>Fill this with lots of stuff</p>
+            <img class="profile-img" src="assets/images/profile.jpg">
+            <p class="about-body">In the beginning of college I had a vague idea of what coding was
+                but certainly lacked an appreciation of its magnitude and power to impact every area
+                of life. Then, one late evening, my mind was rocked with something as simple as VBA. The 
+                hook was sunk and I have been pursuing programming ever since.
+                
+                <br><br>
+
+                My enjoyment for programming comes from the design and chase of it all. I like solving problems 
+                and creating a great user experience!
+            
+                <br><br>
+            
+                When I'm not coding, spending time with my wife (best friend) and our church family is 
+                where you will find me. We like getting involved in the community of Somersworth and
+                enjoy going for walks through the woods with our beagle coon hound, York.</p>
         </section>
 
         <!--Social networking section-->
         <section class="connect">
-            <h3>Connect with Me</h3>
+            <h3 class="connect-header">Connect with Me</h3>
             <hr>
-            <!-- <div class="icons"> -->
-                <img src="assets/images/github_icon.png" href="https://github.com/jamesmart77" alt="github">
-                <img src="assets/images/linkedin_icon.png" href="https://www.linkedin.com/in/jamesrmartineau/" alt="linkedin">
-                <img src="assets/images/stackoverflow_icon.png" href="https://stackoverflow.com/users/8290649/james-martineau" alt="stack overflow">
-            <!-- </div> -->
+            <div class="icons">
+                <a href="https://github.com/jamesmart77" target="_blank">
+                    <img class="connect-img" src="assets/images/github_icon.png" alt="github">
+                </a>
+                <a href="https://www.linkedin.com/in/jamesrmartineau/" target="_blank">
+                    <img class="connect-img" src="assets/images/linkedin_icon.png" alt="linkedin">
+                </a>
+                <a href="https://stackoverflow.com/users/8290649/james-martineau" target="_blank">
+                    <img class="connect-img" src="assets/images/stackoverflow_icon.png" alt="stack overflow">
+                </a>
+            </div>
         </section>
     </div>  
 
     <footer>
         <small>
-            <span>&copy 2017 James Martineau</span>
+            <span>&copy Copyright 2017 James Martineau</span>
         </small>
     </footer>
 
