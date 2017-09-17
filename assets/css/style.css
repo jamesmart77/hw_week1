@@ -1,6 +1,6 @@
 
 h1, h2, h3, h4 {
-    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 
 body {
@@ -10,7 +10,6 @@ body {
     max-width: 1024px;
 }
 /*nav bar*/
-
 nav {
     color: #ccc;
 }
@@ -48,6 +47,12 @@ nav {
     font-weight: bold;
 }
 
+.nav-options a:visited {
+    padding: 0 5px;
+    color: grey;
+    text-decoration: none;
+}
+
 #user-heading {
     position: fixed;
     top: 0;
@@ -57,7 +62,7 @@ nav {
     width: 260px;
     color: #ffffff;
     font-size: 32px;
-    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
     background-color: #4aaaa5;
     text-align: center;
     vertical-align: middle;
@@ -75,6 +80,7 @@ nav {
     color: green
 }
 
+/********************************************/
 /*about me */
 .wrapper {
     position: absolute;
@@ -84,6 +90,7 @@ nav {
     top: 22%;
     left: 32%;
     margin: -100px 0 0 -150px;
+    /* background-color: red; */
 }
 
 section {
@@ -97,6 +104,7 @@ section {
     font-weight: bold;
     color: #4aaaa5;
 }
+
 hr{
     border-top: 1px solid #ccc;
 }
@@ -119,6 +127,61 @@ hr{
     padding: 10px 10px 10px 0;
 }
 
+/************************************/
+/*contact me form*/
+
+form{
+    padding: 20px;
+    float: left;
+    width: 610px;
+    height: 560px;
+    background-color: #ffffff;
+    color: #777777;
+}
+
+input[type=text]{
+    width: 590px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    height: 15px;
+    font-size: 16px;
+    padding: 10px;
+}
+
+input[type=email]{
+    width: 590px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    height: 15px;
+    font-size: 16px;
+    padding: 10px;
+}
+
+textarea{
+    width: 590px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    height: 220px;
+    font-size: 16px;
+    padding: 10px;
+    max-width: 590px;
+    max-height: 245px;
+}
+
+input[type=submit]{
+    height: 40px;
+    width: 111px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    border-style: none;
+    font-size: 15px;
+}
+
+label {
+    color: 
+}
+
+/*About Me and Contact Page*/
 /*connect with me*/
 .connect {
     width: 230px;
@@ -148,6 +211,7 @@ hr{
     text-align: center;
     margin: 0 10px;
 }
+/********************************************/
 
 /*footer*/
 footer{
