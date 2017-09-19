@@ -253,6 +253,7 @@ figure img{
     font-size: 24px;
     color: #ffffff;
     font-family: 'Georgia', Times, Times New Roman, serif;
+    line-height: 50px;
 }
 
 .portfolio-banner-right {
@@ -267,6 +268,7 @@ figure img{
     font-size: 24px;
     color: #ffffff;
     font-family: 'Georgia', Times, Times New Roman, serif;
+    line-height: 50px;
 }
 
 /********************************************/
