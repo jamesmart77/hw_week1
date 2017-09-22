@@ -14,13 +14,11 @@ body {
 
 
 /*nav bar*/
-
 nav {
     color: #ccc;
 }
 
 .nav-heading {
-    /* padding: 10px; */
     position: fixed;
     top: 0;
     left: 0;
@@ -34,7 +32,6 @@ nav {
 
 .nav-list {
     list-style-type: none;
-    /* margin: 0; */
     padding: 0;
     overflow: hidden;
     background-color: #ffffff;
@@ -88,7 +85,6 @@ nav {
 
 /********************************************/
 
-
 /*about me */
 
 .wrapper {
@@ -101,7 +97,6 @@ nav {
     left: 32%;
     margin: -100px 0 0 -150px;
     padding-bottom: 25px;
-    /* background-color: red; */
 }
 
 section {
@@ -122,7 +117,6 @@ hr {
 
 .container {
     width: 610px;
-    /* height: 560px; */
     background-color: #ffffff;
     float: left;
 }
@@ -138,9 +132,7 @@ hr {
     padding: 10px 10px 10px 0;
 }
 
-
 /************************************/
-
 
 /*contact me form*/
 
@@ -148,7 +140,6 @@ form {
     padding: 20px;
     float: left;
     width: 610px;
-    /* height: 560px; */
     background-color: #ffffff;
     color: #777777;
 }
@@ -191,12 +182,19 @@ input[type=submit] {
     font-size: 15px;
 }
 
+input[type=submit]:hover {
+    font-weight: bold;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
 label {
     color: #777777;
 }
 
 
 /*About Me & Contact Page & Portfolio */
+
 /*connect with me*/
 
 .connect {
@@ -223,23 +221,17 @@ label {
     overflow: auto;
 }
 
-
-/* .icons a:hover {
-    border-style: solid;
-    border-width: 1px;
-    border-color: #4aaaa5; 
-    background-color: #4aaaa5;
-} */
-
 .icons {
     width: 100%;
     text-align: center;
     margin: 0 10px;
 }
 
+.connect-img:hover {
+    width: 65px;
+}
 
 /********************************************/
-
 
 /* portfolio page */
 
@@ -253,24 +245,30 @@ figure img {
     height: 185px;
 }
 
+figure img:hover {
+    border: 2px solid #4aaaa5;
+    width: 281px;
+    height: 181px;
+}
+
 .portfolio-img1 {
-    padding: 10px 15px 15px 0;
+    margin: 10px 15px 15px 0;
 }
 
 .portfolio-img2 {
-    padding: 10px 0 15px 15px;
+    margin: 10px 0 15px 15px;
 }
 
 .portfolio-img3 {
-    padding: 15px 15px 15px 0;
+    margin: 15px 15px 15px 0;
 }
 
 .portfolio-img4 {
-    padding: 15px 0 15px 15px;
+    margin: 15px 0 15px 15px;
 }
 
 .portfolio-img5 {
-    padding: 15px 15px 10px 0;
+    margin: 15px 15px 10px 0;
 }
 
 .portfolio-banner-left {
@@ -305,7 +303,6 @@ figure img {
 
 
 /********************************************/
-
 
 /*footer*/
 
